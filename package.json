@@ -1,0 +1,33 @@
+{
+  "name": "blogging-platform-backend",
+  "version": "1.0.0",
+  "description": "A Node.js + Express blogging platform backend with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
